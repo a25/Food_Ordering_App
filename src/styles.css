@@ -1,0 +1,107 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin-top: 0px;
+}
+.filter {
+  margin-left: 10px;
+}
+input[type="text"] {
+  border-radius: 10px;
+}
+::placeholder {
+  text-align: center;
+}
+.navigation {
+  text-align: right;
+  border-bottom: 2px rgb(245, 224, 64) solid;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  border: 1px #c8f542 solid;
+  border-radius: 10px;
+  width: 180px;
+  height: 100px;
+  overflow: hidden;
+  padding: 10px;
+  display: inline-block;
+}
+.description {
+  background-color: #c8f542;
+  padding: 5px;
+  padding-left: 8px;
+  border-radius: 10px;
+  width: 100px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.amount {
+  width: 50px;
+  float: right;
+  border-radius: 10px;
+  text-align: right;
+  padding: 5px;
+  /* border: 1px red solid; */
+  background-color: #c8f542;
+  /* display: inline-block; */
+}
+
+.add-item,
+.add-item1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+.count-display {
+  /* border: 1px red solid; */
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.inc-item,
+.dec-item {
+  display: inline-block;
+}
+
+button {
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(245, 224, 64);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.summary-footer {
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.total-bill {
+  margin-right: 20px;
+  font-weight: 900;
+}
